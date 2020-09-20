@@ -13,7 +13,7 @@ public class DemoApplication {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String sayHello() {
-        return "hello shell hello word";
+        return "hello shell hello";
     }
 
     public static void main(String[] args) {
